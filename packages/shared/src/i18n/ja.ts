@@ -1367,7 +1367,6 @@ export const ja = {
       proposalConfirmOther: "確認",
       proposalDismiss: "無視",
       toolProgress: "{{name}} · {{status}}",
-      generatedImage: "生成された画像",
     },
     agentSource: {
       title: "エージェントの動作モード",
@@ -1376,7 +1375,7 @@ export const ja = {
       builtin: "内蔵 Agent",
       builtinHint: "下で設定したモデルサービスとツールを使用します。",
       local: "ローカル Agent (ACP)",
-      localHint: "このマシン上の Codex、Antigravity、Grok Build、または WorkBuddy に接続します。",
+      localHint: "このマシン上の Codex、Antigravity、Grok Build、または WorkBuddy に接続します。EdgeEver は ACP 経由でファイルやターミナル権限を公開しません。ツール権限はエージェント自身の設定に従います。",
       adapter: "エージェント",
       codex: "Codex",
       antigravity: "Antigravity",
